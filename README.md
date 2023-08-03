@@ -22,7 +22,7 @@ Metoda `calculate` rozhraní `TelephoneBillCalculator` vrátí částku k uhraze
 
 - Minutová sazba v intervalu <8:00:00,16:00:00) je zpoplatněna 1 Kč za každou započatou minutu. Mimo uvedený interval platí snížená sazba 0,50 Kč za každou započatou minutu. Pro každou minutu hovoru je pro stanovení sazby určující čas započetí dané minuty.
 - Pro hovory delší, než pět minut platí pro každou další započatou minutu nad rámec prvních pěti minut snížená sazba 0,20 Kč bez ohledu na dobu kdy telefonní hovor probíhá.
-- V rámci promo akce operátora dále platí, že hovory na nejčastěji volané číslo v rámci výpisu nebudou zpoplatněny. V případě, že by výpis obsahoval dvě nebo více takových čísel, zpoplatněny nebudou hovory na číslo s aritmeticky nejvyšší hodnotou (bude upraveno, nyní aplikace při shodě bere první číslo a nikoli to nejvyšší).
+- V rámci promo akce operátora dále platí, že hovory na nejčastěji volané číslo v rámci výpisu nebudou zpoplatněny. V případě, že by výpis obsahoval dvě nebo více takových čísel, zpoplatněny nebudou hovory na číslo s aritmeticky nejvyšší hodnotou.
 
 ## Jak Používat Modul
 
